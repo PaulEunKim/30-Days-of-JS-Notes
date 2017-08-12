@@ -1,0 +1,24 @@
+Window.addEventListener('keydown', function(e) {
+	//what is this?
+});
+
+const audio = document.querySelector('audio[data-key="${e.keyCode}"]`);
+//what does this all mean?
+
+//document means refer to the document, html file
+//querySelector means get the first element in...
+//audio is an element?
+//attribute is an = (div = ___)
+//classes have "."s
+//data-key is an attribute?
+
+esx template strings?
+
+<audio src = sounds/clap.wav
+
+setTimeout(
+	{
+		//code for timer
+	}, 0.5);
+	
+transition: all 0.7; // what does this mean?
