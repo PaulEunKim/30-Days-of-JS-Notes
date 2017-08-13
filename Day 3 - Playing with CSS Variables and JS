@@ -1,0 +1,30 @@
+class = hl
+//what is the highliter class?
+
+<label for = "spacing">Spacing:</label>
+//what is a label?
+
+<input type = "range" name = "blur" min = "0" max = "25" value = "10" data-sizing = "px"
+//what kind of inputs are there? are these all quotes of css values?
+
+:root
+{
+  --base: ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+  
+}
+//css variable, declaration
+
+img
+{
+  padding: var(--spacing);
+}
+
+const input = document.querySelectorAll('.controls input');
+//what does ".controls input" mean?
+
+//data attribute is something you made up, put it after data-___
+
+//data set takes everything with data-___ and puts into an object, combines them
+
