@@ -11,3 +11,14 @@
 const de = links
                 .map(link => link.textContent) //do not add an extra semicolon here
                 .filter(streetName => streetName.includes('de'));
+
+const alpha = people.sort(function(lastOne, nextOne){
+      const [last,first] = lastOne.split(', ')
+      
+//method to separate names that have commas, also initialization of array
+
+//when using... (data being an array of strings)
+
+    const transporation = data.reduce(function(obj, item){
+
+// function(obj, item) will take two items iteratively. 
