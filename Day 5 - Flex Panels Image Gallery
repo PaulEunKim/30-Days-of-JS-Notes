@@ -1,0 +1,18 @@
+    .panel > * {
+//this means panel children? a search on google seems to get me nowhere
+//this is a missing puzzle piece that I do not understand
+
+//this lesson has a lot of confusing stuff dealing with css and flex
+
+//to learn about mmore flex: https://flexbox.io/
+
+    function toggleActive(e) {
+      console.log(e.propertyName);
+      if (e.propertyName.includes('flex')) {
+        this.classList.toggle('open-active');
+      }
+    }
+    
+//what exactly does this do?
+//what exactly is classList from?
+//this is the most confusing one so far
