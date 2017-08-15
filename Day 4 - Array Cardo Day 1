@@ -1,0 +1,13 @@
+//you can make a nodelist into an array by wrapping code around Array.from();
+
+//you can also do this by wrapping code in [...//code here]
+
+//you can user querySelector or querySelectorAll on variables, not just document
+
+//you can run code in the console, then see what variables by entering the variable name and pressing enter
+
+//you can format your functions like this
+
+const de = links
+                .map(link => link.textContent) //do not add an extra semicolon here
+                .filter(streetName => streetName.includes('de'));
